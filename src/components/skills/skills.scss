@@ -1,0 +1,162 @@
+@import '../../app.scss';
+
+.skills {
+    background: linear-gradient (180deg, #0c0c1d, ☐#111132);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    .textContainer {
+        flex: 1;
+        align-self: flex-end;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        @include mobile{
+            align-self: center;
+            text-align: center;
+            flex-direction: column;
+            padding: 30px 10px;
+        }
+
+        p {
+            font-weight: 200;
+            font-size: 20px;
+            color: gray;
+            text-align: right;
+        }
+
+        hr {
+            width: 500px;
+            border: none;
+            border-top: 0.5px solid gray;
+            @include mobile{
+                width: 300px;
+            }
+        }
+    }
+
+    .titleContainer {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @include mobile{
+            width: 100%;
+        }
+
+        .title {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            @include mobile{
+                flex-direction: column;
+                text-align: center;
+                gap: 20px;
+            }
+
+            img {
+                width: 300px;
+                height: 100px;
+                border-radius: 50px;
+                object-fit: cover;
+                @include mobile{
+                    width: 200px;
+                    height: 50px;
+                }
+            }
+
+            h1 {
+                font-size: 50px;
+                font-weight: 100;
+                @include mobile{
+                    font-size: 30px;
+                }
+
+            }
+
+            button {
+                width: 300px;
+                height: 100px;
+                border-radius: 50px;
+                background-color: orange;
+                border: none;
+                font-size: 24px;
+                cursor: pointer;
+                @include mobile{
+                    font-size: 16px;
+                    width: 150px;
+                    height: 50px;
+                }
+            }
+        }
+    }
+
+    .skillContainer {
+        // flex: 2;
+        display: flex;
+        width: 100%;
+        height: fit-content;
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .imgS {
+            // width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            .cont {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 20px 20px;
+                width: 9rem;
+                height: 9rem;
+                border-radius: 20px;
+                cursor: pointer;
+                flex-direction: column;
+                background-color: black;
+
+                img {
+                    margin-bottom: 3px;
+                    width: 6rem;
+                    height: 6rem;
+                    filter: none;
+                    transition: all 0.3s;
+                }
+            }
+            .cont:hover img {
+                filter: grayscale(100%);
+            }
+        }
+
+    }
+    .div {
+        height: 2.7rem;
+        width: 9rem;
+        border-radius: 13px;
+        margin: 15px 4rem;
+        border: 0px;
+        border-radius: 13px;
+        font-family: 'Merriweather', serif;
+        font-size: 15px;
+        font-weight: bolder;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+    
+    .div:hover {
+        transform: scale(1.1);
+        color: aliceblue;
+        background-color: #0077ff;
+    }
+
+}
+
