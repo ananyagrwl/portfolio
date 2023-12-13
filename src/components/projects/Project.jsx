@@ -12,7 +12,7 @@ const items = [
     },
     {
         id: 2,
-        title: "SPOTIFY COLNE",
+        title: "SPOTIFY CLONE",
         img: "/assets/spotify.png",
         desc: "Recreation of a very popular, user friendly music platform, Spotify",
         link: "https://ananyagrwl.github.io/Spotify-Clone/"
