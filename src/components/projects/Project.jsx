@@ -22,7 +22,7 @@ const items = [
         title: "FLIGHT ENQUIRY SYSTEM",
         img: "/assets/farm-expert.png",
         desc: "A platform for flight admins. It has all the features required by an admin to add new flights and update/delete them.",
-        link: "https://geekslearneasy.com/"
+        link: "https://github.com/ananyagrwl/Flight-Enquiry-System"
     },
     {
         id: 4,
