@@ -17,29 +17,29 @@ const items = [
         desc: "Recreation of a very popular, user friendly music platform, Spotify",
         link: "https://ananyagrwl.github.io/Spotify-Clone/"
     },
+    // {
+    //     id: 3,
+    //     title: "FLIGHT ENQUIRY SYSTEM",
+    //     img: "/assets/farm-expert.png",
+    //     desc: "A platform for flight admins. It has all the features required by an admin to add new flights and update/delete them.",
+    //     link: "https://github.com/ananyagrwl/Flight-Enquiry-System"
+    // },
     {
         id: 3,
-        title: "FLIGHT ENQUIRY SYSTEM",
-        img: "/assets/farm-expert.png",
-        desc: "A platform for flight admins. It has all the features required by an admin to add new flights and update/delete them.",
-        link: "https://github.com/ananyagrwl/Flight-Enquiry-System"
-    },
-    {
-        id: 4,
         title: "AYURMEDIC",
         img: "/assets/ayur.png",
         desc: "Focused on prescribing ayuvedic medicines to humans, this project will give the ayurvedic knowledge in a concise way on one single platform.",
         link: "https://ayurmedicpro.vercel.app/"
     },
     {
-        id: 5,
+        id: 4,
         title: "GEEKS LEARN EASY",
         img: "/assets/gle.png",
         desc: "This project is mainly focused on the students. It provides assistance in the problem of maintain notes during exams. It also provides explanation of topics in Hinglish language",
         link: "https://geekslearneasy.com/"
     },
     {
-        id: 6,
+        id: 5,
         title: "GENERAL STORE",
         img: "/assets/general.png",
         desc: "A general store from the admin side of a company. It has all the features of managing a online store from a website.",
