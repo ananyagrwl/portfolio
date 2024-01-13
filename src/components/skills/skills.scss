@@ -17,7 +17,7 @@
             align-self: center;
             text-align: center;
             flex-direction: column;
-            padding: 30px 10px;
+            padding: 20px 5px;
         }
 
         p {
@@ -68,7 +68,7 @@
             }
 
             h1 {
-                font-size: 50px;
+                font-size: 45px;
                 font-weight: 100;
                 @include mobile{
                     font-size: 30px;
@@ -76,20 +76,20 @@
 
             }
 
-            button {
-                width: 300px;
-                height: 100px;
-                border-radius: 50px;
-                background-color: orange;
-                border: none;
-                font-size: 24px;
-                cursor: pointer;
-                @include mobile{
-                    font-size: 16px;
-                    width: 150px;
-                    height: 50px;
-                }
-            }
+            // button {
+            //     width: 300px;
+            //     height: 100px;
+            //     border-radius: 50px;
+            //     background-color: orange;
+            //     border: none;
+            //     font-size: 20px;
+            //     cursor: pointer;
+            //     @include mobile{
+            //         font-size: 16px;
+            //         width: 150px;
+            //         height: 50px;
+            //     }
+            // }
         }
     }
 
@@ -98,11 +98,14 @@
         display: flex;
         width: 100%;
         height: fit-content;
-        padding-top: 20px;
+        padding-top: 5px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        @include mobile{
+            padding: 20px;
+        }
 
         .imgS {
             // width: 50%;
@@ -110,25 +113,35 @@
             align-items: center;
             justify-content: space-around;
             flex-wrap: wrap;
+            
 
             .cont {
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 margin: 20px 20px;
-                width: 9rem;
-                height: 9rem;
+                width: 8rem;
+                height: 8rem;
                 border-radius: 20px;
                 cursor: pointer;
                 flex-direction: column;
                 background-color: black;
+                @include mobile{
+                    width: 6rem;
+                    height: 6rem;
+                    margin: 10px 5px;
+                }
 
                 img {
                     margin-bottom: 3px;
-                    width: 6rem;
-                    height: 6rem;
+                    width: 5rem;
+                    height: 5rem;
                     filter: none;
                     transition: all 0.3s;
+                    @include mobile{
+                        width: 3rem;
+                    height: 3rem;
+                    }
                 }
             }
             .cont:hover img {
