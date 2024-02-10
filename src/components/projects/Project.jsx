@@ -5,10 +5,10 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
     {
         id: 1,
-        title: "FARM EXPERT",
-        img: "/assets/farm-expert.png",
-        desc: "This project contains potential to help the farmers in all the ways possible. It was a team project. Our main focus was on helping the farmers to know the crops which can grow on the current soil conditions and the soil condition required for growing a particular crop. I worked as the Front-end Developer and helped with ML parts.",
-        link: "https://front2-beta.vercel.app/"    
+        title: "WHISPER WALLS",
+        img: "/assets/whisperwalls.png",
+        desc: "This website offers you a platform where you can share your secrets or confessions anonymously with the world. It is integrated with Google Authentication.",
+        link: "https://whisperwalls.vercel.app/"    
     },
     {
         id: 2,
@@ -40,18 +40,18 @@ const items = [
     },
     {
         id: 5,
+        title: "FARM EXPERT",
+        img: "/assets/farm-expert.png",
+        desc: "This project contains potential to help the farmers in all the ways possible. It was a team project. Our main focus was on helping the farmers to know the crops which can grow on the current soil conditions and the soil condition required for growing a particular crop. I worked as the Front-end Developer and helped with ML parts.",
+        link: "https://front2-beta.vercel.app/"    
+    },
+    {
+        id: 6,
         title: "GENERAL STORE",
         img: "/assets/general.png",
         desc: "A general store from the admin side of a company. It has all the features of managing a online store from a website.",
         link: "https://github.com/ananyagrwl/General-Store-FrontEnd"
-    },
-    // {
-    //     id: 7,
-    //     title: "VETAT: Virtual Electricity Trading and Transferring",
-    //     img: "/assets/farm-expert.png",
-    //     desc: "This project is mainly focused on the transfer and trading of electricity virtually not physically. This will minimize the use of physical wires needed for transfer.",
-    //     link: "https://geekslearneasy.com/"
-    // },
+    }
 ];
 
 const Single = ({ item }) => {
