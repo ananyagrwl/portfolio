@@ -11,7 +11,7 @@ export const Contact = () => {
                 </div>
                 <div className="item">
                     <h2>Address</h2>
-                    <span>Gwalior, Madhya Pradesh, India</span>
+                    <span>Gwalior, Madhya Pradesh, India, </span>
                     <span>474001</span>
                 </div>
                 <div className="item">

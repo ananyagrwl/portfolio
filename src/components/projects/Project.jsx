@@ -8,7 +8,7 @@ const items = [
         title: "WHISPER WALLS",
         img: "/assets/whisperwalls.png",
         desc: "This website offers you a platform where you can share your secrets or confessions anonymously with the world. It is integrated with Google Authentication.",
-        link: "https://whisperwalls.vercel.app/"    
+        link: "https://github.com/ananyagrwl/whisper_walls_frontend"    
     },
     {
         id: 2,
@@ -29,24 +29,31 @@ const items = [
         title: "AYURMEDIC",
         img: "/assets/ayur.png",
         desc: "Focused on prescribing ayuvedic medicines to humans, this project will give the ayurvedic knowledge in a concise way on one single platform.",
-        link: "https://ayurmedicpro.vercel.app/"
+        link: "https://github.com/Ayurmedic/ayurmedicFrontend"
     },
     {
         id: 4,
         title: "GEEKS LEARN EASY",
         img: "/assets/gle.png",
         desc: "This project is mainly focused on the students. It provides assistance in the problem of maintain notes during exams. It also provides explanation of topics in Hinglish language",
-        link: "https://geekslearneasy.com/"
+        link: "https://github.com/Geeks-Learn-Easy/Geeks-Learn-Easy"
     },
     {
         id: 5,
+        title: "AUTHO",
+        img: "/assets/autho.png",
+        desc: "Autho is an authentication tool that facilitates user login through email verification using a One-Time Password (OTP). Upon registering, a verification mail containing the OTP is sent to the user's email address. The user must enter the OTP on the website to complete the login process.",
+        link: "https://github.com/ananyagrwl/auth_frontend"    
+    },
+    {
+        id: 6,
         title: "FARM EXPERT",
         img: "/assets/farm-expert.png",
         desc: "This project contains potential to help the farmers in all the ways possible. It was a team project. Our main focus was on helping the farmers to know the crops which can grow on the current soil conditions and the soil condition required for growing a particular crop. I worked as the Front-end Developer and helped with ML parts.",
         link: "https://front2-beta.vercel.app/"    
     },
     {
-        id: 6,
+        id: 7,
         title: "GENERAL STORE",
         img: "/assets/general.png",
         desc: "A general store from the admin side of a company. It has all the features of managing a online store from a website.",
@@ -69,7 +76,7 @@ const Single = ({ item }) => {
                     <motion.div className="textContainer" style={{y}}>
                         <h2>{item.title}</h2>
                         <p>{item.desc}</p>
-                        <a href={item.link} target='blank'><button>Visit Website</button></a>
+                        <a href={item.link} target='blank'><button>Visit GitHub</button></a>
                     </motion.div>
                 </div>
             </div>
