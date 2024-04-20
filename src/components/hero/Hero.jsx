@@ -50,7 +50,7 @@ export const Hero = () => {
                     animate="animate">
                     <motion.h2 variants={textVariants}>ANANYA AGRAWAL</motion.h2>
                     <motion.h1 variants={textVariants}>
-                        Web and Adroid Developer
+                        Web and Android Developer
                     </motion.h1>
                     <motion.div variants={textVariants} className="buttons">
                         <motion.button variants={textVariants}>
