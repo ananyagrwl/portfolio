@@ -7,7 +7,10 @@ export const Contact = () => {
                 <h1>Let's work together</h1>
                 <div className="item">
                     <h2>Mail</h2>
-                    <span>ananya88agrawal@gmail.com</span>
+                    <div className='item-mail'>
+                        <span>ananya88agrawal@gmail.com</span>
+                        <a href="mailto:ananya88agrawal@gmail.com"><button>Send Mail</button></a>
+                    </div>
                 </div>
                 <div className="item">
                     <h2>Address</h2>
