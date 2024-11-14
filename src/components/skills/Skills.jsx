@@ -26,6 +26,8 @@ export const Skills = () => {
                         alt="" srcset="" /><span>React</span></div>
                     <div data-aos="fade-right" data-tilt data-tilt-reverse="true" class="cont"><img src="./assets/node-js.png"
                         alt="" /><span>Node</span></div>
+                    <div data-aos="fade-right" data-tilt data-tilt-reverse="true" class="cont"><img src="./assets/django.png"
+                        alt="" /><span>Django</span></div>
                     {/* <div data-aos="fade-left" data-tilt data-tilt-reverse="true" class="cont"><img src="./assets/mui.png"
                         alt="" /><span>MUI</span></div> */}
                     <div data-aos="fade-right" data-tilt data-tilt-reverse="true" class="cont"><img src="./assets/firebase.png"
@@ -34,8 +36,7 @@ export const Skills = () => {
                         alt="" /><span>MongoDB</span></div>
                     <div data-aos="fade-left" data-tilt data-tilt-reverse="true" class="cont"><img src="./assets/sql.png"
                         alt="" /><span>SQL</span></div>
-                    <div data-aos="fade-left" data-tilt data-tilt-reverse="true" class="cont"><img src="./assets/js.png"
-                        alt="" /><span>JS</span></div>
+                    
                 </div>
                 <div class="imgS">
 
@@ -43,12 +44,16 @@ export const Skills = () => {
                         alt="" /><span>WebFlow</span></div>
                     <div data-aos="fade-left" data-tilt data-tilt-reverse="true" class="cont"><img src="./assets/lambdatest.png"
                         alt="" /><span>LambdaTest</span></div>
-                    <div data-aos="fade-right" data-tilt data-tilt-reverse="true" class="cont"><img src="./assets/html.png"
-                        alt="" /><span>HTML</span></div>
-                    <div data-aos="fade-left" data-tilt data-tilt-reverse="true" class="cont"><img src="./assets/css.png"
-                        alt="" /><span>CSS</span></div>
+                    {/* <div data-aos="fade-right" data-tilt data-tilt-reverse="true" class="cont"><img src="./assets/html.png"
+                        alt="" /><span>HTML</span></div> */}
+                    {/* <div data-aos="fade-left" data-tilt data-tilt-reverse="true" class="cont"><img src="./assets/css.png"
+                        alt="" /><span>CSS</span></div> */}
+                    <div data-aos="fade-left" data-tilt data-tilt-reverse="true" class="cont"><img src="./assets/html-css.png"
+                        alt="" /><span>HTML/CSS</span></div>
                     {/* <div data-aos="fade-left" data-tilt data-tilt-reverse="true" class="cont"><img src="./assets/sass.png"
                         alt="" /><span>SASS</span></div> */}
+                    <div data-aos="fade-left" data-tilt data-tilt-reverse="true" class="cont"><img src="./assets/js.png"
+                        alt="" /><span>JS</span></div>
                     <div data-aos="fade-right" data-tilt data-tilt-reverse="true" class="cont"><img src="./assets/cpp.png"
                         alt="" /><span>C++</span></div>
                     <div data-aos="fade-left" data-tilt data-tilt-reverse="true" class="cont"><img src="./assets/python.png"
